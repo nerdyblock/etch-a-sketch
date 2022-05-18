@@ -10,3 +10,5 @@ Live version is [here](https://nerdyblock.github.io/etch-a-sketch/)
 - Create a grid size up to 100 x 100.
 - Show or Remove grid lines.
 - Eraser option to erase only a certain cell/grid.
+
+![Image](~/Downloads/etch-a-sketch-site.png)  
