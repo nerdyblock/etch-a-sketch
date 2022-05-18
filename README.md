@@ -11,4 +11,4 @@ Live version is [here](https://nerdyblock.github.io/etch-a-sketch/)
 - Show or Remove grid lines.
 - Eraser option to erase only a certain cell/grid.
 
-![Image](~/Downloads/etch-a-sketch-site.png)  
+!(~/Downloads/etch-a-sketch-site.png)  
