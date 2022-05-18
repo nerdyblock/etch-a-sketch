@@ -16,16 +16,17 @@
         <main>
             <div class="menu">
                 <div id="color-picker">
-                    <span id="color-text">Color</span>
                     <input type="color" id="color">
+                    <span id="color-text">Color</span>
                 </div>
-                <button id="erase">Erase</button>
-                <button id="random-color">Random Color</button>
-                <button id="grid">Grid</button>
+                <button id="erase" class="btn-style">Erase</button>
+                <button id="random-color" class="btn-style">Random Color</button>
+                <button id="grid" class="btn-style">Grid</button>
                 <div class="range-slider">
-                    <input type="range" min="16" max="74" value="16" class="myslider">
-                    <p>Value: <span id="demo"></span></p>
+                    <input type="range" min="16" max="100" value="16" class="myslider">
+                    <p>Grid Size: <span id="demo"></span></p>
                 </div>
+                <button id="clear" class="btn-style">Clear</button>
             </div>
             <div class="container"></div>
             
