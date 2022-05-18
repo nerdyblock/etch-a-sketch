@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,38 +7,58 @@
 body {
     padding: 0px;
     margin: 0px;
+    line-height: 0.5;
+    background-color: rgb(36, 33, 33);
+    color: white;
 }
 
 h1 {
+    font-family: 'Dancing Script';
+    font-size: 48px;
+    font-weight: 900;
     text-align: center;
     margin: 50px;
+    color: white;
 }
 
 main {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .menu {
     display: flex;
+    background-color: rgb(61, 59, 59);
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 500px;
     margin: 50px;
+    border: 2px solid rgb(44, 163, 231);
+    padding: 20px;
+    border-radius: 12px;
 }
 
-.box {
-    border: 1px solid black;
-}
-
-.container{
-    box-sizing: content-box;
+#color-picker {
     display: flex;
-    width: 600px;
-    height: 600px;
-    flex-wrap: wrap;
-    align-self: center;
-    margin: 50px;
-    border: 2px solid black;
+    align-items: center;
+    gap: 1em;
+}
+
+#color {
+    margin: 20px 0px;
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid rgb(62, 166, 255);
+}
+
+#color-text {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.btn-on {
+    background-color: aquamarine;
 }
 
 .rangeslider {
@@ -45,7 +67,7 @@ main {
 
 .myslider {
     background: #FCF3CF  ;
-    width: 150px;
+    width: 140px;
     height: 20px;
     opacity: 2
 }
@@ -54,27 +76,27 @@ main {
     opacity: 1;
 }
 
-#erase {
+.btn-style {
     width: 120px;
     height: 40px;
     font-size: 16px;
     border-radius: 8px;
+    margin: 20px 0px;
 }
 
-#random-color {
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
-    border-radius: 8px;
+.container{
+    background-color: white;
+    box-sizing: content-box;
+    display: flex;
+    width: 620px;
+    height: 620px;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 50px 50px 80px 50px;
+    border: 10px solid rgb(44, 163, 231);
+    border-radius: 5px;
 }
 
-.btn-on {
-    background-color: aquamarine;
-}
-
-#grid {
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
-    border-radius: 8px;
+.box {
+    border: 1px solid rgb(230, 227, 227);
 }
